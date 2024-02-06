@@ -1,0 +1,219 @@
+﻿namespace metot_1313
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnHesapla = new System.Windows.Forms.Button();
+            this.lblSayi1 = new System.Windows.Forms.Label();
+            this.lblSayi2 = new System.Windows.Forms.Label();
+            this.txtSayi1 = new System.Windows.Forms.TextBox();
+            this.txtSayi2 = new System.Windows.Forms.TextBox();
+            this.lblSonuc = new System.Windows.Forms.Label();
+            this.btnSekil = new System.Windows.Forms.Button();
+            this.txtMesaj = new System.Windows.Forms.TextBox();
+            this.lblMesaj = new System.Windows.Forms.Label();
+            this.btnRenk = new System.Windows.Forms.Button();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.btnRenk2 = new System.Windows.Forms.Button();
+            this.Renkler = new System.Windows.Forms.GroupBox();
+            this.Renkler.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // btnHesapla
+            // 
+            this.btnHesapla.Font = new System.Drawing.Font("Franklin Gothic Demi Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHesapla.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnHesapla.Location = new System.Drawing.Point(86, 180);
+            this.btnHesapla.Name = "btnHesapla";
+            this.btnHesapla.Size = new System.Drawing.Size(120, 34);
+            this.btnHesapla.TabIndex = 0;
+            this.btnHesapla.Text = "Hesapla";
+            this.btnHesapla.UseVisualStyleBackColor = true;
+            this.btnHesapla.Click += new System.EventHandler(this.btnHesapla_Click);
+            // 
+            // lblSayi1
+            // 
+            this.lblSayi1.AutoSize = true;
+            this.lblSayi1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSayi1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblSayi1.Location = new System.Drawing.Point(12, 30);
+            this.lblSayi1.Name = "lblSayi1";
+            this.lblSayi1.Size = new System.Drawing.Size(59, 24);
+            this.lblSayi1.TabIndex = 1;
+            this.lblSayi1.Text = "Sayı 1:";
+            // 
+            // lblSayi2
+            // 
+            this.lblSayi2.AutoSize = true;
+            this.lblSayi2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSayi2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblSayi2.Location = new System.Drawing.Point(8, 77);
+            this.lblSayi2.Name = "lblSayi2";
+            this.lblSayi2.Size = new System.Drawing.Size(63, 24);
+            this.lblSayi2.TabIndex = 2;
+            this.lblSayi2.Text = " Sayı 2:";
+            // 
+            // txtSayi1
+            // 
+            this.txtSayi1.Font = new System.Drawing.Font("Franklin Gothic Demi Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtSayi1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtSayi1.Location = new System.Drawing.Point(86, 29);
+            this.txtSayi1.Multiline = true;
+            this.txtSayi1.Name = "txtSayi1";
+            this.txtSayi1.Size = new System.Drawing.Size(120, 26);
+            this.txtSayi1.TabIndex = 3;
+            // 
+            // txtSayi2
+            // 
+            this.txtSayi2.Font = new System.Drawing.Font("Franklin Gothic Demi Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtSayi2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtSayi2.Location = new System.Drawing.Point(86, 75);
+            this.txtSayi2.Multiline = true;
+            this.txtSayi2.Name = "txtSayi2";
+            this.txtSayi2.Size = new System.Drawing.Size(120, 26);
+            this.txtSayi2.TabIndex = 4;
+            // 
+            // lblSonuc
+            // 
+            this.lblSonuc.AutoSize = true;
+            this.lblSonuc.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSonuc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblSonuc.Location = new System.Drawing.Point(11, 247);
+            this.lblSonuc.Name = "lblSonuc";
+            this.lblSonuc.Size = new System.Drawing.Size(60, 24);
+            this.lblSonuc.TabIndex = 5;
+            this.lblSonuc.Text = "Sonuç:";
+            // 
+            // btnSekil
+            // 
+            this.btnSekil.Font = new System.Drawing.Font("Franklin Gothic Demi Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSekil.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSekil.Location = new System.Drawing.Point(267, 98);
+            this.btnSekil.Name = "btnSekil";
+            this.btnSekil.Size = new System.Drawing.Size(120, 34);
+            this.btnSekil.TabIndex = 6;
+            this.btnSekil.Text = "...";
+            this.btnSekil.UseVisualStyleBackColor = true;
+            // 
+            // txtMesaj
+            // 
+            this.txtMesaj.Font = new System.Drawing.Font("Franklin Gothic Demi Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtMesaj.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtMesaj.Location = new System.Drawing.Point(86, 119);
+            this.txtMesaj.Multiline = true;
+            this.txtMesaj.Name = "txtMesaj";
+            this.txtMesaj.Size = new System.Drawing.Size(120, 26);
+            this.txtMesaj.TabIndex = 8;
+            // 
+            // lblMesaj
+            // 
+            this.lblMesaj.AutoSize = true;
+            this.lblMesaj.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblMesaj.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblMesaj.Location = new System.Drawing.Point(8, 121);
+            this.lblMesaj.Name = "lblMesaj";
+            this.lblMesaj.Size = new System.Drawing.Size(57, 24);
+            this.lblMesaj.TabIndex = 7;
+            this.lblMesaj.Text = "Mesaj:";
+            // 
+            // btnRenk
+            // 
+            this.btnRenk.Font = new System.Drawing.Font("Franklin Gothic Demi Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnRenk.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnRenk.Location = new System.Drawing.Point(18, 19);
+            this.btnRenk.Name = "btnRenk";
+            this.btnRenk.Size = new System.Drawing.Size(68, 34);
+            this.btnRenk.TabIndex = 9;
+            this.btnRenk.Text = "Renk ";
+            this.btnRenk.UseVisualStyleBackColor = true;
+            this.btnRenk.Click += new System.EventHandler(this.btnRenk_Click);
+            // 
+            // btnRenk2
+            // 
+            this.btnRenk2.Font = new System.Drawing.Font("Franklin Gothic Demi Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnRenk2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnRenk2.Location = new System.Drawing.Point(92, 19);
+            this.btnRenk2.Name = "btnRenk2";
+            this.btnRenk2.Size = new System.Drawing.Size(68, 34);
+            this.btnRenk2.TabIndex = 10;
+            this.btnRenk2.Text = "Renk 2";
+            this.btnRenk2.UseVisualStyleBackColor = true;
+            this.btnRenk2.Click += new System.EventHandler(this.btnRenk2_Click);
+            // 
+            // Renkler
+            // 
+            this.Renkler.Controls.Add(this.btnRenk2);
+            this.Renkler.Controls.Add(this.btnRenk);
+            this.Renkler.Location = new System.Drawing.Point(16, 328);
+            this.Renkler.Name = "Renkler";
+            this.Renkler.Size = new System.Drawing.Size(179, 70);
+            this.Renkler.TabIndex = 11;
+            this.Renkler.TabStop = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(707, 455);
+            this.Controls.Add(this.Renkler);
+            this.Controls.Add(this.txtMesaj);
+            this.Controls.Add(this.lblMesaj);
+            this.Controls.Add(this.btnSekil);
+            this.Controls.Add(this.lblSonuc);
+            this.Controls.Add(this.txtSayi2);
+            this.Controls.Add(this.txtSayi1);
+            this.Controls.Add(this.lblSayi2);
+            this.Controls.Add(this.lblSayi1);
+            this.Controls.Add(this.btnHesapla);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Renkler.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnHesapla;
+        private System.Windows.Forms.Label lblSayi1;
+        private System.Windows.Forms.Label lblSayi2;
+        private System.Windows.Forms.TextBox txtSayi1;
+        private System.Windows.Forms.TextBox txtSayi2;
+        private System.Windows.Forms.Label lblSonuc;
+        private System.Windows.Forms.Button btnSekil;
+        private System.Windows.Forms.TextBox txtMesaj;
+        private System.Windows.Forms.Label lblMesaj;
+        private System.Windows.Forms.Button btnRenk;
+        private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.Button btnRenk2;
+        private System.Windows.Forms.GroupBox Renkler;
+    }
+}
+

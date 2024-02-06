@@ -16,5 +16,13 @@ namespace metot_1313
         {
             InitializeComponent();
         }
+
+        private void btnHesapla_Click(object sender, EventArgs e)
+        {
+            Sekil sekil1 = new Sekil();
+            sekil1.uzunKenar = Convert.ToInt32(txtSayi1.Text);
+            sekil1.kisaKenar = Convert.ToInt32(txtSayi1.Text);
+            sekil1.KareYaz();
+        }
     }
 }

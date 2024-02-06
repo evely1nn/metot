@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace metot_1313
+{
+    internal class Sekil
+    {
+        public int uzunKenar { get; set; }
+        public int kisaKenar { get; set; }
+
+        //parametre almayan ve değer döndürmeyen(void)
+
+        public void KareYaz()
+        {
+            int sonuc = this.kisaKenar * this.uzunKenar;
+
+            MessageBox.Show($" Şeklin Karesi:{sonuc}");
+        }
+
+
+    }
+}
